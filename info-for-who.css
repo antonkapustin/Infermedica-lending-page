@@ -1,0 +1,17 @@
+.info-for-who {
+    padding: 140px 200px 200px 200px;
+    text-align: center;
+}
+
+.info-for-who__title {
+    font-size: 40px;
+    color: var(--color-black);
+    padding: 0;
+    margin: 0;
+}
+
+.info-for-who__discription {
+    color: var(--color-gray);
+    font-size: 20px;
+    padding-bottom: 18px;
+}
