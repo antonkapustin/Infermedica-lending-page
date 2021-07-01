@@ -1,0 +1,24 @@
+body {
+    background-image: url(BG.webp);
+    background-size: auto;
+    background-position: top center;
+    background-repeat: repeat-y;
+    padding: 0px 165px;
+}
+
+.button {}
+
+.button-primary {
+    border-radius: 500px;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    width: 150px;
+    height: 50px;
+}
+
+:root {
+    --color-gray: rgb(80, 80, 80);
+    --color-white: white;
+    --color-blue: rgb(76, 136, 248);
+}
