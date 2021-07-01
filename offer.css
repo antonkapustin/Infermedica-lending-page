@@ -1,9 +1,13 @@
 .offer {
-    padding-top: 85px;
+    padding-top: 100px;
+    padding-right: 320px;
 }
 
 .offer__subtitle {
-    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color-gray);
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 .offer__title {
@@ -13,7 +17,15 @@
 }
 
 .offer__discription {
+    font-size: 25px;
     color: var(--color-gray);
+    padding-bottom: 10px;
 }
 
-.offer__img {}
+.offer__subtitle_second {
+    padding-top: 90px;
+}
+
+.offer__img {
+    padding-top: 40px;
+}
