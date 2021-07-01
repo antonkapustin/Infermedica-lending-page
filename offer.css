@@ -1,0 +1,19 @@
+.offer {
+    padding-top: 85px;
+}
+
+.offer__subtitle {
+    padding: 0;
+}
+
+.offer__title {
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+}
+
+.offer__discription {
+    color: var(--color-gray);
+}
+
+.offer__img {}
