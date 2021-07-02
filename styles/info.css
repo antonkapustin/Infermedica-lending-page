@@ -3,7 +3,6 @@
     }
     
     .info__title {
-        padding-right: 40px;
         font-size: 40px;
         text-align: center;
         color: var(--color-black);

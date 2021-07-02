@@ -1,7 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 11px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .header__logo {}
@@ -14,6 +15,7 @@
 
 .header-list__item {
     display: inline-block;
+    /* change display "flex" */
 }
 
 .header-list__link {
