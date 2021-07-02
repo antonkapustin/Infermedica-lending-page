@@ -1,5 +1,5 @@
     body {
-        background-image: url(BG.webp);
+        background-image: url("assets/BG.webp");
         background-size: auto;
         background-position: top center;
         background-repeat: repeat-y;
