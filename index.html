@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/navigation.css">
     <link rel="stylesheet" href="styles/offer.css">
     <link rel="stylesheet" href="styles/info.css">
     <link rel="stylesheet" href="styles/info-for-who.css">
@@ -17,14 +18,16 @@
 <body>
     <header class="header">
         <a href="/home" class="header__logo logo"><img class="logo__img" src="assets/img/logo.jpeg" alt="infermedica"></a>
-        <ul class="header-list">
-            <li class="header-list__item"><a href="/products" class="header-list__link">Products</a></li>
-            <!--change class "nav"  and create anothef file-->
-            <li class="header-list__item"><a href="/customer-stories" class="header-list__link">Customer Stories</a></li>
-            <li class="header-list__item"><a href="/about" class="header-list__link">About</a></li>
-            <li class="header-list__item"><a href="/blog" class="header-list__link">Blog</a></li>
-            <li class="header-list__item "><button type="button" class="button button-primary">Get In touch</button></li>
-        </ul>
+        <div class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-list__item"><a href="/products" class="navigation-list__link">Products</a></li>
+                <!--change class "nav"  and create anothef file-->
+                <li class="navigation-list__item"><a href="/customer-stories" class="navigation-list__link">Customer Stories</a></li>
+                <li class="navigation-list__item"><a href="/about" class="navigation-list__link">About</a></li>
+                <li class="navigation-list__item"><a href="/blog" class="navigation-list__link">Blog</a></li>
+                <li class="navigation-list__item "><button type="button" class="button button_primary">Get In touch</button></li>
+            </ul>
+        </div>
     </header>
     <div class="offer">
         <h2 class="offer__subtitle">Partner Program</h2>

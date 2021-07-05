@@ -6,21 +6,3 @@
 }
 
 .header__logo {}
-
-.header-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.header-list__item {
-    display: inline-block;
-    /* change display "flex" */
-}
-
-.header-list__link {
-    text-decoration: none;
-    color: var(--color-gray);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
