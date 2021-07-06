@@ -1,19 +1,20 @@
 .offer {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 115px auto;
 }
 
 .offer__subtitle {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     color: var(--color-gray);
-    font-size: 13px;
+    font-size: 1.3rem;
     text-transform: uppercase;
+    margin-bottom: 26px;
 }
 
 .offer__title {
     padding: 0;
     margin: 0;
-    font-size: 60px;
+    font-size: 5.3rem;
 }
 
 .offer__discription {
