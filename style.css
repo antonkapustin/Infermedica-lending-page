@@ -17,7 +17,7 @@
         padding: 22px 36px;
     }
     
-    .button-primary {
+    .button_primary {
         border-radius: 500px;
         background-color: var(--color-white);
         color: var(--color-blue);
