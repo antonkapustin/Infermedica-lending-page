@@ -1,18 +1,52 @@
-.form-section {}
+.form-section {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.form {}
+.form {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.form-label {}
+.form-label {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.form-section__title {
+    font-size: 39px;
+    color: var(--color-black);
+    padding: 0;
+    margin: 0;
+    align-self: center;
+}
+.form__title{
+    color:var(--color-gray);
+    font-size:18px;
 
-.form__title {}
+}
 
-.form__input {}
+.form__input {
+    width: 410px;
+    height: 50px;
+}
 
-.form__section {}
+.form__section {
+    width: 410px;
+    height: 50px;
+}
 
 .form__section-option {}
 
-.form-textarea {}
+.form__textarea {
+    width: 410px;
+    height: 200px;
+}
 
 .form__checkbox {}
 
