@@ -4,6 +4,8 @@
         background-position: top center;
         background-repeat: repeat-y;
         padding: 0 165px;
+        max-width: 1000px;
+        margin: 0 auto ;
     }
     
     .button {

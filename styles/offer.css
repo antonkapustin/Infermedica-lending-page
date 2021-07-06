@@ -1,12 +1,13 @@
 .offer {
     max-width: 1000px;
-    margin: 115px auto;
+    margin: 0 auto ;
 }
 
 .offer__subtitle {
+    margin-top:115px;
     font-family: Inter, Arial, Helvetica, sans-serif;
     color: var(--color-gray);
-    font-size: 1.3rem;
+    font-size: 13px;
     text-transform: uppercase;
     margin-bottom: 26px;
 }
@@ -14,7 +15,7 @@
 .offer__title {
     padding: 0;
     margin: 0;
-    font-size: 5.3rem;
+    font-size: 53px;
 }
 
 .offer__discription {
@@ -27,6 +28,3 @@
     padding-top: 90px;
 }
 
-.offer__img {
-    padding-top: 40px;
-}
