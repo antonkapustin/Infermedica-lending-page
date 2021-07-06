@@ -1,9 +1,12 @@
 .dropdown {
-    padding: 125px 150px 0 130px;
+    max-width: 660px;
+    margin: 130px auto;
 }
 
 .dropdown-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .dropdown-list__item {
@@ -11,6 +14,7 @@
 }
 
 .dropdown-list__title {
+    
     font-size: 15px;
     color: var(--color-black);
 }
@@ -21,6 +25,7 @@
 
 .dropdown-list__discription-list {
     list-style: disc;
+    margin-bottom: 20px;
 }
 
 .dropdown-list__discription-list-item {

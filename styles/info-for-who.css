@@ -1,5 +1,6 @@
 .info-for-who {
-   margin: 190px auto 36px;
+    max-width: 575px;
+    margin: 190px auto 36px;
     text-align: center;
 }
 
