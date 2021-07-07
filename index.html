@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/feedback.css">
     <link rel="stylesheet" href="styles/start-info.css">
     <link rel="stylesheet" href="styles/form-section.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <title>Third site</title>
 </head>
 
@@ -244,7 +245,7 @@
                 What can we achieve togother through our partnership? Describe your vision and tell us more about business case, and the objectives you want to achieve with us.
             </textarea>
         </label>
-            <label class="form-label">
+            <label class="form-label ckboxhec">
             <input type="checkbox" class="form__checkbox">
             <span  class="form__title">I would like to obtain information about the Partner Program.</span>     
         </label>
@@ -258,7 +259,7 @@
         </form>
     </div>
     <footer class="footer">
-        <div class="footer-section">
+        <div class="footer-section-list">
             <h3 class="footer-section__title">Products</h3>
             <ul class="footer-list">
                 <li class="footer-list__item"><a href="/symptom-checker" class="footer-list__link">Symptom Checker</a></li>
@@ -267,7 +268,7 @@
                 <li class="footer-list__item"><a href="/product-roadmap" class="footer-list__link">Product Roadmap</a></li>
             </ul>
         </div>
-        <div class="footer-section">
+        <div class="footer-section-list">
             <h3 class="footer-section__title">Company</h3>
             <ul class="footer-list">
                 <li class="footer-list__item"><a href="/about" class="footer-list__link">About</a></li>
@@ -278,7 +279,7 @@
                 <li class="footer-list__item"><a href="/partner-program" class="footer-list__link">Partner Program</a></li>
             </ul>
         </div>
-        <div class="footer-section">
+        <div class="footer-section-list">
             <h3 class="footer-section__title">Developers</h3>
             <ul class="footer-list">
                 <li class="footer-list__item"><a href="/developer-portal" class="footer-list__link">Developer Portal</a></li>
@@ -288,7 +289,7 @@
                 <li class="footer-list__item"><a href="/api-status" class="footer-list__link">API status</a></li>
             </ul>
         </div>
-        <div class="footer-section">
+        <div class="footer-section-list">
             <h3 class="footer-section__title">Resources</h3>
             <ul class="footer-list">
                 <li class="footer-list__item"><a href="/public-test-cases" class="footer-list__link">Public Test Cases</a></li>
@@ -298,16 +299,19 @@
         </div>
         <div class="footer-section">
             <div class="footer-section__company">
-                <img src="assets/icons/ce" alt="CE-logo" class="footer-section__company-logo">
+                a<img src="assets/icons/ce" alt="CE-logo" class="footer-section__company-logo">
                 <img src="assets/icons/gdpr" alt="gdpr-compliant" class="footer-section__company-logo">
                 <img src="assets/icons/iso" alt="iso-13485:2016" class="footer-section__company-logo">
             </div>
             <div class="footer-section__social">
-                <img src="assets/social/iconfinder_2959749_facebook_icon_64px.png" alt="facebook" class="footer-section__social-icons">
-                <img src="assets/social/iconfinder_211920_twitter_social_icon_64px.png" alt="twitter" class="footer-section__social-icons">
-                <img src="assets/social/icons8-линкедин-30.png" alt="linkedIn" class="footer-section__social-icons">
-                <img src="assets/social/iconfinder_2959742_broadcast_google_streaming_video_youtube_icon_64px.png" alt="youtube" class="footer-section__social-icons">
+                <ul class="social-list">
+                <li class="social-list__item"><a href="/facebook" class="social-list__link"><img src="assets/social/iconfinder_2959749_facebook_icon_64px.png" alt="facebook" class="footer-section__social-icons"></a></li>
+                <li class="social-list__item"><a href="/twitter" class="social-list__link"><img src="assets/social/iconfinder_211920_twitter_social_icon_64px.png" alt="twitter" class="footer-section__social-icons"></a></li>
+                <li class="social-list__item"><a href="/linkid" class="social-list__link"><img src="assets/social/icons8-линкедин-30.png" alt="linkedIn" class="footer-section__social-icons"></a></li>
+                <li class="social-list__item"><a href="/youtube" class="social-list__link"><img src="assets/social/iconfinder_2959742_broadcast_google_streaming_video_youtube_icon_64px.png" alt="youtube" class="footer-section__social-icons"></a></li>
+            </ul>
             </div>
+        </div>
             <div class="bottom-bar">
                 <div class="bottom-bar__language">
                     <img src="assets/icons/global" alt="global" class="bootom-bar__language-icon">
@@ -316,14 +320,15 @@
                         <option value="rus" class="botton-bar__language-list-item">Russian</option>
                         <option value="ger" class="botton-bar__language-list-item">Germany</option>
                     </select>
+                    <div class="bottom-bar-right">
+                        <a href="/privacy-and-cookies" class="bottom-bar__link">Privacy & Cookies</a>
+                        <img src="assets/icons/icon" alt="icon" class="bottom-bar__icon">
+                        <a href="/home" class="bottom-bar__link">Infermedica 2021</a>
+                    </div>
                 </div>
-                <div class="bottom-bar-right">
-                    <a href="/privacy-and-cookies" class="bottom-bar__link">Privacy & Cookies</a>
-                    <img src="assets/icons/icon" alt="icon" class="bottom-bar__icon">
-                    <a href="/home" class="bottom-bar__link">Infermedica 2021</a>
-                </div>
+               
             </div>
-        </div>
+        
     </footer>
 </body>
 

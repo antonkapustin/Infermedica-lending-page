@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    margin-top: 155px;
+    justify-content: space-between;
+}
+
+.footer-section-list{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: flex-start;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.footer-section__title{}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-list__item{}
+
+.footer-list__link{
+    text-decoration: none;
+}
+
+.footer-section__company{}
+
+.footer-section__company{}
+
+.footer-section__social{}
+
+.social-list{
+    list-style: none;
+}
+
+.social-list__item{}
+
+.social-list__link{}
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+}
