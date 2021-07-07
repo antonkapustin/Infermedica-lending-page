@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 450px;
+    margin: 35px auto;
 }
 
 .form-label {
@@ -17,6 +19,7 @@
     flex-direction: column;
     align-self: center;
     margin-bottom: 30px;
+    
 }
 .form-section__title {
     font-size: 39px;
@@ -48,6 +51,19 @@
     height: 200px;
 }
 
-.form__checkbox {}
+.form__title{}
 
-.form-section__discription {}
+.form__link{
+    text-decoration: none;
+    color:var(--color-blue);
+}
+
+.form__checkbox { }
+
+.checkbox{}
+
+.form-section__discription {
+    font-size: 18px;
+    color: var(--color-gray);
+    margin-bottom: 31px;
+}
