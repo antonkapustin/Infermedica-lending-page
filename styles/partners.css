@@ -8,14 +8,14 @@
     font-size: 13px;
     text-transform: uppercase;
 }
-.partners-list {
+.partners_list {
     display:flex;
     flex-direction: row;
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.partners-list__item{
+.partners_list-item{
 margin-right:100px;
 }
-.partners-list__img{}
+.partners__list-img{}

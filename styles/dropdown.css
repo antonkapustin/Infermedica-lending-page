@@ -3,32 +3,32 @@
     margin: 130px auto;
 }
 
-.dropdown-list {
+.dropdown__list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.dropdown-list__item {
+.dropdown__list-item {
     padding-top: 10px;
 }
 
-.dropdown-list__title {
+.dropdown__list-title {
     
     font-size: 15px;
     color: var(--color-black);
 }
 
-.dropdown-list__discription {
+.dropdown__list-discription {
     color: var(--color-gray);
 }
 
-.dropdown-list__discription-list {
+.dropdown__list-discription-list {
     list-style: disc;
     margin-bottom: 20px;
 }
 
-.dropdown-list__discription-list-item {
+.dropdown__list-discription-list-item {
     padding-top: 10px;
     color: var(--color-gray);
 }
