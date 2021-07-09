@@ -1,64 +1,65 @@
 .footer{
     margin-top: 155px;
 }
-.footer-container{
+.footer__container{
     display: flex;
     justify-content: space-between;
     max-width: 935px;
 }
 
-.footer-section-list{
+.footer-container-text{
     
 }
 
-.footer-section{
+/* .footer-section{
     margin-top: 65px;
     display: flex;
     justify-content: space-between;
     
-}
+} */
 
-.footer-section__title{
+.footer__container-title{
     color: var(--color-gray);
     font-size:15px;
     text-transform: uppercase;
     margin: 20px 0;
 }
 
-.footer-list{
+.footer__list{
     list-style: none;
 }
 
-.footer-list__item{
+.footer__list-item{
     margin-top: 25px;
     font-size: 18px;
 }
 
-.footer-list__link{
+.footer__list-link{
     color: var(--color-gray);
     text-decoration: none;
 }
 
-.footer-section__company{}
+.footer__link{
+    color: var(--color-gray);
+    text-decoration: none;
+}
 
-.footer-section__company{}
+.footer__container-company{}
 
-.footer-section__social{}
+.footer__container-social{}
 
-.social-list{
+.footer__social-list{
     display: flex;
     list-style: none;
 }
-.footer-section__social-icons{
+.footer__social-icons{
     width: 30px;
     height: 30px;
 }
 
-.social-list__item{}
+.footer__social-list-item{}
 
-.social-list__link{}
+.footer__social-list-link{}
 
-.bottom-bar{
-    display: flex;
-    justify-content: space-between;
-}
+.footer__bottom-bar_left{}
+.footer__bottom-bar__right{}
