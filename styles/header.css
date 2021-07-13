@@ -1,8 +1,9 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 
 .header__logo {}

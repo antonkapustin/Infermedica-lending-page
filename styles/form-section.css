@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.form-section__content{
+.form{
     margin-top: 35px;
     display: flex;
     flex-direction: column;
@@ -14,52 +14,24 @@
     margin: 35px auto;
 }
 
-.form-section__label {
+.form__controll{
     display: flex;
     flex-direction: column;
     align-self: center;
     margin-bottom: 30px;
-    
-}
-.form-section__title_large {
-    font-size: 39px;
-    color: var(--color-black);
-    padding: 0;
-    margin: 0;
-    align-self: center;
-}
-.form-section__title_small{
-    color:var(--color-gray);
-    font-size:18px;
-
 }
 
-.form-section__input {
+.form__field{
     width: 410px;
     height: 50px;
 }
 
-.form-section__select {
-    width: 410px;
-    height: 50px;
-}
+.form__checkbox{}
 
-.form-section__select-option {}
+.form__option {}
 
-.form-section__textarea {
-    width: 410px;
-    height: 200px;
-}
 
-.form-section__link{
+.form__link{
     text-decoration: none;
     color:var(--color-blue);
-}
-
-.form-section__checkbox { }
-
-.form-section__discription {
-    font-size: 18px;
-    color: var(--color-gray);
-    margin-bottom: 31px;
 }
