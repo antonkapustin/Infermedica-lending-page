@@ -37,29 +37,24 @@
         color: var(--color-black);
         padding: 0;
         margin: 0;
-        font-style: normal;
     }
     .title_small{
         font-size: 25px;
         color: var(--color-black);
-        font-style: normal;
     }
     .paragraph_main{
         font-size: 25px;
         color: var(--color-gray);
-        font-style: normal;
     }
     .paragraph{
         font-size: 19px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: var(--color-gray);
-        font-style: normal;
     }
     .paragraph_bold{
         font-weight: 700;
         color: var(--color-black);
         font-size: 20px;
-        font-style: normal;
     }
     .button {
         border-radius: 500px;

@@ -1,6 +1,5 @@
 .start-info {
     text-align: left;
-
 }
 
 .content__list{}
@@ -9,4 +8,5 @@
     display:flex;
     justify-content: space-between;
     list-style:none;
+    flex-wrap: wrap;
 }

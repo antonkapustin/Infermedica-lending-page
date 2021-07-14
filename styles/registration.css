@@ -1,8 +1,5 @@
-.form-section {
-    margin-top: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.registration {
+    text-align: center;
 }
 
 .form{
