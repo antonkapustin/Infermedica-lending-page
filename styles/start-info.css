@@ -5,8 +5,9 @@
 .content__list{}
 
 .list_numbered {
-    display:flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 375px 340px;
+    column-gap: 275px;
+    row-gap: 0;
     list-style:none;
-    flex-wrap: wrap;
 }

@@ -22,6 +22,9 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 19px;
     }
+    .title{
+        color: var(--color-black);
+    }
     .subtitle{
         font-family: Inter, Arial, Helvetica, sans-serif;
         color: var(--color-gray);
@@ -30,21 +33,16 @@
     }
     .title_main{
         font-size: 53px;
-        color: var(--color-black);
+        
     }
     .title_large{
-        font-size: 40px;
-        color: var(--color-black);
-        padding: 0;
-        margin: 0;
+        font-size: 40px;        
     }
     .title_small{
         font-size: 25px;
-        color: var(--color-black);
     }
     .paragraph_main{
         font-size: 25px;
-        color: var(--color-gray);
     }
     .paragraph{
         font-size: 19px;

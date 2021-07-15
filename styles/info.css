@@ -1,6 +1,7 @@
     .info {
-        padding-top: 150px;
         text-align: center;
+        display: grid;
+        row-gap: 155px;
     } 
 
     .card {
@@ -8,9 +9,11 @@
         border-radius: 20px;
         max-width: 705px;
         margin:0 auto;
+        display: grid;
+        row-gap: 75px;
     }
     .card__container{
-        margin-top:130px;
+        /* margin-top:130px; */
         display: flex;
         flex-direction: row;
         justify-content: space-between;
