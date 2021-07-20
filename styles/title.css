@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     font-family: "Soleil";
+    font-size: 37px;
+    letter-spacing:-0.617px;
+    line-height: 44.4px;
 }
 
 .title_main{
@@ -13,13 +16,9 @@
     margin-bottom: 24px;
     
 }
-.title_large{
-    font-size: 37px;
-    letter-spacing:-0.617px;
-    line-height: 44.4px;
-    max-width: 460px;
-    margin: 0 auto 64px;
-}
 .title_small{
-    font-size: 25px;
+    font-size: 23px;
+    letter-spacing: -0.308px;
+    line-height: 27.6px;
+    margin-bottom: 15px;
 }
