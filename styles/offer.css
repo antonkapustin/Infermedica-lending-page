@@ -1,5 +1,8 @@
 .offer {
+   padding:0 0 95px 0;
+}
+.offer__content{
     max-width: 1000px;
-    margin: 100px auto ;
+    margin: 0 auto 98px auto;
 }
 

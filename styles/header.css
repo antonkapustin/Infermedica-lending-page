@@ -6,4 +6,11 @@
     margin: 0 auto ;
 }
 
-.header__logo {}
+.header__logo {
+    display: inline-block;
+    align-self: center;
+    /* полноразмерность ссылки or logo__img display:block; */
+}
+.logo__img{
+    display: block;
+}
