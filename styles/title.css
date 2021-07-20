@@ -22,3 +22,8 @@
     line-height: 27.6px;
     margin-bottom: 15px;
 }
+.title_bold{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.218px;
+}

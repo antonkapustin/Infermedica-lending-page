@@ -8,22 +8,10 @@
     padding:64px;
 }
 .card__container{
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .card__paragraph{
     margin-bottom: 32px;
 }
-
-.container__img{}
-
 .card__img{}
-
-.container__content{
-    margin-left: 64px;
-    text-align: left;
-}
-.content__item{
-    margin-bottom: 16px;
-}
