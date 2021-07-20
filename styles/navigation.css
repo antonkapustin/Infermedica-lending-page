@@ -1,0 +1,22 @@
+.navigation {}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    list-style: none;
+    margin: 0;
+}
+.navigation__item{}
+
+.navigation__link{
+    text-decoration: none;
+    color: var(--color-gray);
+    font-family: "Inter", sans-serif;;
+    font-size: 16px;
+    letter-spacing: -0.15px;
+    padding:12px 16px;
+}
+.navigation__item_left_gap{
+    margin-left: 14px;
+}

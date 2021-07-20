@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 155px;
+}
+.nav{
+    /* display: flex;
+    justify-content: space-between;
+    max-width: 935px; */
+}
+
+.footer__list{
+    flex-direction: column;
+}
+
+.footer__link{
+    color: var(--color-gray);
+    text-decoration: none;
+}
+.footer__container{
+display: flex;
+justify-content: space-between;
+}
+.container{}
+.certificate{
+    display: flex;
+    align-content: center;
+    vertical-align:middle;
+}
+.certificate__icon{
+    width: 30px;
+    height: 30px;
+}
+.certificate__text{}
+
+.social{}
+.social__icon{
+    width: 30px;
+    height: 30px;
+}
+
+.language{}
+.copirights_pushed_left{}

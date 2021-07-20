@@ -1,29 +1,11 @@
 .dropdown {
-    padding: 125px 150px 0 130px;
+    margin-top:175px;
+    text-align: left;
 }
-
-.dropdown-list {
-    list-style: none;
+.dropdown__list{
+    flex-direction: column;
 }
-
-.dropdown-list__item {
-    padding-top: 10px;
+.dropdown__item{
+    margin-bottom: 50px;
 }
-
-.dropdown-list__title {
-    font-size: 15px;
-    color: var(--color-black);
-}
-
-.dropdown-list__discription {
-    color: var(--color-gray);
-}
-
-.dropdown-list__discription-list {
-    list-style: disc;
-}
-
-.dropdown-list__discription-list-item {
-    padding-top: 10px;
-    color: var(--color-gray);
-}
+.dropdown__header{}

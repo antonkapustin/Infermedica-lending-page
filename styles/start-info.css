@@ -1,13 +1,13 @@
-.start-info {}
+.start-info {
+    text-align: left;
+}
 
-.start-info__title {}
+.content__list{}
 
-.start-info__discription {}
-
-.start-info__list {}
-
-.start-info__list-item {}
-
-.start-info__list-title {}
-
-.start-info__list-discription {}
+.list_numbered {
+    display:grid;
+    grid-template-columns: 375px 340px;
+    column-gap: 275px;
+    row-gap: 0;
+    list-style:none;
+}
