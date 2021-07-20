@@ -1,0 +1,10 @@
+.subtitle{
+    font-family: "Inter", sans-serif;
+    color: var(--color-gray);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0;
+    letter-spacing: -0.15px;
+    margin-bottom: 27px;
+}

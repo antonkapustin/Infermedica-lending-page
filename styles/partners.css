@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.partners__list {
+.partners__list{
   display: flex;
   flex-direction: row;
   padding: 33px;
@@ -14,6 +14,7 @@
     height: 30px;
     margin-right: 64px;
     display:block;
+    margin-top: 6px;
 }
 .partners_cadalys{
   height: 26px;

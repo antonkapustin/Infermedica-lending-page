@@ -1,0 +1,23 @@
+.paragraph{
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+    color: var(--color-gray);
+    padding: 0;
+    margin: 0;
+}
+.paragraph_main{
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    color:#324b72;
+    /* letter-spacing: -0.15px; */
+    line-height: 30px;
+    max-width: 50ch;
+    margin-bottom: 32px;
+}
+.paragraph_bold{
+    font-weight: 700;
+    color: var(--color-black);
+    font-size: 20px;
+   
+
+}
