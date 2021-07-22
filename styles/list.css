@@ -3,7 +3,16 @@
     margin: 0;
     list-style: none;
 }
-.list__item{}
+.list__item{
+    margin: 0;
+    padding: 0;
+}
+.list__content{
+    margin: 6px 0px 30px 3px;
+}
+.list__content_last{
+    margin-bottom: 0px;
+}
 .list__link{
     text-decoration: none;
     color: var(--color-gray);
