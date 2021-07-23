@@ -3,15 +3,3 @@
 }
 
 .container__img{}
-
-.container__content{
-    margin-left: 64px;
-    text-align: left;
-}
-.content__item{
-    margin-bottom: 16px;
-}
-.content__item_flex{
-    display: flex;
-    align-items: baseline;
-}

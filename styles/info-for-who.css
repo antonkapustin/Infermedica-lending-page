@@ -4,9 +4,9 @@
     margin: 0 auto;
     text-align: center;
 }
-.title_info-for-who{
+.info-for-who__title{
     margin-bottom: 5px;
 }
 .paragraph_info-for-who{
-    margin-bottom: 5px;
+    margin-top: 5px;
 }

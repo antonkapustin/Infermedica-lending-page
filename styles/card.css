@@ -2,16 +2,31 @@
     /* background-color: var(--color-white); */
     border-radius: 16px;
     max-width: 705px;
-    margin:0 auto;
-    display: grid;
-    row-gap: 113px;
+    margin:0 auto 64px auto;
     padding:64px;
+}
+.card__devider{
+    margin-top: 48px;
+    margin-bottom: 64px;
+    height: 1px;
+    display: block;
 }
 .card__container{
     flex-direction: row;
     justify-content: space-between;
 }
-.card__paragraph{
+.paragraph_singl{
     margin-bottom: 32px;
 }
+.paragraph_double{
+margin-bottom: 48px;
+}
+.card__content{
+    margin-left: 64px;;
+}
 .card__img{}
+.card__list{}
+.card__item{
+    margin-bottom: 16px;
+    background-image: url("../assets/icons/galka.svg");
+}
