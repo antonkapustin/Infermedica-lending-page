@@ -2,8 +2,6 @@
     text-align: left;
 }
 
-.content__list{}
-
 .list_numbered {
     display:grid;
     grid-template-columns: 375px 340px;

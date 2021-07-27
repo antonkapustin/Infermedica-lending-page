@@ -9,7 +9,11 @@
 
     .container__img {}
 
-    .feedback__img{}
+    .feedback__img{
+        width: 128px;
+        height: 128px;
+        border-radius:50%;
+    }
 
     .container__content{}
 

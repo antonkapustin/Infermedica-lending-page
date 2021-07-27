@@ -1,10 +1,15 @@
 :root {
     --color-gray: #7b8ba5;
+    --color-darkgray:#324b72;
     --color-white: #fff;
     --color-blue: #2e85ff;
     --color-black: #112950;
-    --main-font:;
-    --second-font:;
+    --main-font:"Inter", sans-serif;
+    --second-font:"Soleil";
+}
+@font-face {
+    font-family:"Soleil" ;
+    src: url(assets/fonts/Soleil.woff2);
 }
 
    body {
@@ -14,85 +19,9 @@
         background-repeat: repeat-y;
         margin: 0 auto ;
     }
-    .list{
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-    .list__item{}
-    .list__link{
-        text-decoration: none;
-        color: var(--color-gray);
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 19px;
-    }
-    .title{
-        color: var(--color-black);
-    }
-    .subtitle{
-        font-family: "Inter", sans-serif;
-        color: var(--color-gray);
-        font-size: 14px;
-        font-weight: 600;
-        text-transform: uppercase;
-        padding: 0;
-        margin: 0;
-        letter-spacing: 0.15px;
-    }
-    .title_main{
-        font-size: 53px;
-        
-    }
-    .title_large{
-        font-size: 40px;        
-    }
-    .title_small{
-        font-size: 25px;
-    }
 
-    .paragraph{
-        font-size: 19px;
-        font-family: "Inter", sans-serif;
-        color: var(--color-gray);
-        padding: 0;
-        margin: 0;
-    }
-    .paragraph_main{
-        font-size: 23px;
-        font-family: "Inter", sans-serif;
-        color:;
-        letter-spacing: -0.15px;
-        line-height: 30px;
-        max-width: 50ch;
-        margin-bottom: 32px;
-    }
-    .paragraph_bold{
-        font-weight: 700;
-        color: var(--color-black);
-        font-size: 20px;
-       
 
-    }
-    .button {
-        border-radius: 500px;
-        margin: 0;
-        font-size: 16px;
-        font-family: "Inter", sans-serif;
-        font-weight: 600;
-    }
 
-    
-    .button_primary {
-        background-color: var(--color-blue);
-        color: var(--color-white);
-        border: 1px solid var(--color-blue);
-        padding: 19px 31px;
-       
-    }
-    .button_secondary{
-        background-color: var(--color-white);
-        color: var(--color-blue);
-        border: 1px solid var(--color-blue);
-        padding: 15px 24px;
-    }
+
+
     
