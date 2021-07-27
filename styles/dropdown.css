@@ -14,10 +14,5 @@
     box-shadow: 0 20px 60px rgb(17 41 80 / 8%), 0 2px 8px rgb(17 41 80 / 8%); */
 }
 .dropdown__header{}
-.sublist{
-    padding:0 0 12px 20px;
-}
-.sublist__item{
-    margin-bottom: 8px;
-}
+
 
