@@ -16,12 +16,6 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.paragraph_singl{
-    margin-bottom: 32px;
-}
-.paragraph_double{
-margin-bottom: 50px;
-}
 .card__content{
     margin-left: 64px;;
 }

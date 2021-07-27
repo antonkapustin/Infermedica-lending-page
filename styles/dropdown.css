@@ -1,11 +1,17 @@
 .dropdown {
-    margin-top:175px;
     text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+    padding-top: 133px;
 }
 .dropdown__list{
     flex-direction: column;
 }
 .dropdown__item{
-    margin-bottom: 50px;
+    padding: 15px;
+    /* background-color: var(--color-white);
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgb(17 41 80 / 8%), 0 2px 8px rgb(17 41 80 / 8%); */
 }
 .dropdown__header{}
+

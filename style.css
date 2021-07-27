@@ -4,8 +4,8 @@
     --color-white: #fff;
     --color-blue: #2e85ff;
     --color-black: #112950;
-    --main-font:;
-    --second-font:;
+    --main-font:"Inter", sans-serif;
+    --second-font:"Soleil";
 }
 @font-face {
     font-family:"Soleil" ;

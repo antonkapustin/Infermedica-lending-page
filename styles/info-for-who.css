@@ -1,12 +1,6 @@
 .info-for-who {
-    padding-top: 125px;
-    max-width: 575px;
+    padding-top: 62px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-}
-.info-for-who__title{
-    margin-bottom: 5px;
-}
-.paragraph_info-for-who{
-    margin-top: 5px;
 }
