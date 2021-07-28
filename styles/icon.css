@@ -1,5 +1,7 @@
 .icon{}
-
+.icon__arrow_down{
+    width: 14px;
+}
 .icon__checkmark{
     margin-right:10px;
 }

@@ -11,6 +11,7 @@
     margin-bottom: 64px;
     height: 1px;
     display: block;
+    background-color: #e0e6ed;
 }
 .card__container{
     flex-direction: row;

@@ -13,6 +13,10 @@
     border-radius: 16px;
     box-shadow: 0 20px 60px rgb(17 41 80 / 8%), 0 2px 8px rgb(17 41 80 / 8%); */
 }
-.dropdown__header{}
+.dropdown__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
