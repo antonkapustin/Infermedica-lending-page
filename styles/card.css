@@ -11,6 +11,7 @@
     margin-bottom: 64px;
     height: 1px;
     display: block;
+    background-color: #e0e6ed;
 }
 .card__container{
     flex-direction: row;
@@ -19,7 +20,22 @@
 .card__content{
     margin-left: 64px;;
 }
-.card__img{}
+.card__img{
+    width: 194px;
+}
+.card__img_rocket{
+    background-image: url("../assets/icons/rocket.png");
+    background-repeat: no-repeat;
+}
+.card__img_dialog{
+    background-image: url("../assets/icons/dialog.png");
+    background-repeat: no-repeat;
+}
+.card__img_speed{
+    background-image: url("../assets/icons/speed.png");
+    background-repeat: no-repeat;
+    width: 137px;
+}
 .card__list{}
 .card__item{
     margin-bottom: 16px;
@@ -29,7 +45,7 @@
     background-position: left;
 }
 .card__item_with_gap{
-    margin-bottom: 50px;
+    margin-bottom: 48px;
     background-position: inherit;
 }
 .card__item_last{
