@@ -13,7 +13,7 @@
  .slider__controlls{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 24px;
 }
 
 .slider__button{
@@ -28,4 +28,16 @@
     margin-right: 220px;
     flex-shrink: 0;
 }
-.slider__button_left, .slider__button_right {}
+.slider__button_left, .slider__button_right {
+    width: 60px;
+    height: 60px;
+    margin: 7px;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.slider__button_left {
+    background-image: url("../assets/icons/arrow_left.svg");
+}
+.slider__button_right {
+    background-image: url("../assets/icons/arrow_right.svg");
+}
