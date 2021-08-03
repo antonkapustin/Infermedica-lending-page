@@ -16,9 +16,6 @@
     font-size: 37px;
     letter-spacing:-0.617px;
     line-height: 44.4px;
-    max-width: 460px;
-    margin: 0 auto;
-    text-align: center;
     margin-bottom: 64px;
 }
 .title_small{
@@ -41,4 +38,7 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+}
+.title_gap {
+    margin-bottom:24px;
 }
