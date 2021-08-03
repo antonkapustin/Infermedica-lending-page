@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 450px;
+    max-width: 420px;
     margin: 0 auto;
     text-align: left;
 }
@@ -18,10 +18,11 @@
 }
 
 .form__controll{
-    display: flex;
-    flex-direction: column;
     align-self: center;
     margin-bottom: 22px;
+}
+.form__controll_flex {
+    display: flex;
 }
 
 .form__field{
@@ -33,13 +34,19 @@
     background-color: #fff;
     border: 1px solid #d6dbe4;
     border-radius: 4px;
+    resize: vertical;
 }
 .form-section__field {
     width: 420px;
     padding-bottom: 16px;
 }
-
-.form__checkbox{}
+.form__field_textarea {
+    height: 168px;
+}
+.form__checkbox{
+    width: 24px;
+    height: 24px;
+}
 
 .form__option {}
 
