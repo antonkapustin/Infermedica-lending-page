@@ -2,4 +2,9 @@
     display: flex;
 }
 
-.container__img{}
+.container__img{
+    min-width: 190px;
+    margin-right: 55px;
+}
+.container__content{
+}
