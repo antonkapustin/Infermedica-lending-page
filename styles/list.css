@@ -15,8 +15,10 @@
 .list__link{
     text-decoration: none;
     color: var(--color-gray);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 19px;
+    font-family: var(--main-font);
+    font-size: 16px;
+    letter-spacing: -0.15px;
+    line-height:24px;
 }
 .list_numbered {
     display:grid;

@@ -1,25 +1,25 @@
 .footer{
-    margin-top: 155px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 71px;
 }
-.nav{
-    /* display: flex;
-    justify-content: space-between;
-    max-width: 935px; */
+.nav{ 
 }
 
-.footer__list{
+.footer__list {
     flex-direction: column;
 }
+.footer__item {
+    margin-bottom: 16px;
+}
+.footer__item_top_gap {
+    margin-top: 58px;
+}
 
-.footer__link{
-    color: var(--color-gray);
-    text-decoration: none;
-}
 .footer__container{
-display: flex;
-justify-content: space-between;
+    justify-content: space-between;
+    margin-right: 68px;
 }
-.container{}
 .certificate{
     display: flex;
     align-content: center;
