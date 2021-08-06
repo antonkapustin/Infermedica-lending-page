@@ -1,0 +1,14 @@
+.social{
+    height: 48px;
+}
+.social__icon{
+    width: 20px;
+    height: 20px;
+}
+.social__list {
+    display: flex;
+}
+.social__item {
+    width: 36px;
+    height: 36px;
+}

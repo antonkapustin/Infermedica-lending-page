@@ -4,6 +4,7 @@
     padding-top: 71px;
 }
 .nav{ 
+    margin-bottom: 78px;
 }
 
 .footer__list {
@@ -20,22 +21,9 @@
     justify-content: space-between;
     margin-right: 68px;
 }
-.certificate{
-    display: flex;
-    align-content: center;
-    vertical-align:middle;
-}
-.certificate__icon{
-    width: 30px;
-    height: 30px;
-}
-.certificate__text{}
 
-.social{}
-.social__icon{
-    width: 30px;
-    height: 30px;
-}
+
+
 
 .language{}
 .copirights_pushed_left{}

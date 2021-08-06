@@ -24,7 +24,6 @@
     display:grid;
     grid-template-columns: 375px 388px;
     column-gap: 219px;
-    row-gap: 0;
     list-style:none;
 }
 .list__item_numbered {
