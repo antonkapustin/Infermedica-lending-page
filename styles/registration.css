@@ -19,7 +19,6 @@
 }
 
 .form__controll{
-    align-self: center;
     margin-bottom: 25px;
 }
 .form__controll_flex {
@@ -28,7 +27,7 @@
 }
 
 .form__field{
-    width: 388px;
+    width: 100%;
     padding: 12px 16px;
     font-family: inherit;
     font-size: 16px;
@@ -36,15 +35,17 @@
     background-color: #fff;
     border: 1px solid #d6dbe4;
     border-radius: 4px;
-    resize: vertical;
+    outline: none;
+    box-sizing: border-box;
+    appearance: none;
 }
 .form-section__field {
     width: 420px;
     padding-bottom: 16px;
 }
 .form__field_textarea {
-    height: 168px;
-    margin-bottom: 22px;
+    height: 196px;
+    resize: vertical;
 }
 .form__checkbox{
     min-width: 24px;

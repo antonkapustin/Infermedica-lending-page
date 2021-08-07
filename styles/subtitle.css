@@ -1,5 +1,5 @@
 .subtitle {
-    font-family: "Inter", sans-serif;
+    font-family: var(--main-font);
     color: var(--color-gray);
     font-size: 14px;
     font-weight: 600;
@@ -9,5 +9,5 @@
     margin-bottom: 27px;
 }
 .subtitle_footer{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }

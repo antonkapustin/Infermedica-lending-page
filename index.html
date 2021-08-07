@@ -258,7 +258,7 @@
                 </div>
                 <div class="slider__item">
                     <div class="container slider__container">
-                        <div class ="container__img">
+                        <div class="container__img">
                             <img src="assets/icons/userpic2.png" alt="userpic" class="feedback__img">
                         </div>
                         <div class="container__content">
@@ -271,7 +271,7 @@
                 </div>
                 <div class="slider__item">
                     <div class="container slider__container">
-                        <div class ="container__img">
+                        <div class="container__img">
                             <img src="assets/icons/userpic3.png" alt="userpic" class="feedback__img">
                         </div>
                         <div class="container__content">
@@ -285,7 +285,7 @@
             </div>
             <div class="slider__controlls">
                 <button type="button" class=" slider__button slider__button_left button_secondary">
-                    <!-- <i class="icon icon_arrow_left"></i> -->
+                   <!-- need  to do class desable-->
                 </button>
                 <button type="button" class="slider__button slider__button_right button_secondary">
                     <!-- <i class="right-arrow"></i> -->
@@ -301,36 +301,28 @@
         <div class="content__list">
             <ul class="list list_numbered">
                 <li class="list__item list__item_numbered">
-                    <div class="">
                         <img src="assets/icons/number1.png" alt="number1" class="list__img">
-                    </div>
                     <div class="list__content">
                         <h4 class="title title_bold">Initial assessment</h4>
                         <p class="paragraph">We will learn more about one another and check if Infermedica’s technologies are a good fit for your business.</p>
                     </div>
                 </li>
                 <li class="list__item list__item_numbered">
-                    <div class="">
                         <img src="assets/icons/number2.png" alt="number2" class="list__img">
-                    </div>
                     <div class="list__content">
                         <h4 class="title title_bold">Partnership formations</h4>
                         <p class="paragraph">We will work together on the vision and goals of this partnership, and establish the steps and metrics to achieve them.</p>
                     </div>
                 </li>
                 <li class="list__item list__item_numbered">
-                    <div class="">
                         <img src="assets/icons/number3.png" alt="number3" class="list__img">
-                    </div>
                     <div class="list__content">
                         <h4 class="title title_bold">Partner onboarding</h4>
                         <p class="paragraph">Our team will walk you, and your team, through Infermedica's health technologies and the ways to make the most of their use.</p>
                     </div>
                 </li>
                 <li class="list__item list__item_numbered">
-                    <div class="">
                         <img src="assets/icons/number4.png" alt="number4" class="list__img">
-                    </div>
                     <div class="list__content">
                         <h4 class="title title_bold">Continuous development</h4>
                         <p class="paragraph">Our product team will keep you updated on all new features and changes to help you provide the latest health solutions</p>
@@ -343,31 +335,31 @@
         <h2 class="title title_regular">Let's talk about partnership</h2>
         <form class="form">
             <label class="form__controll">
-                <span class="paragraph paragraph_small form__label form__label_required">Full name</span>
+                <span class="form__label form__label_required">Full name</span>
                 <input type="text" class="form__field">
             </label>
             <label class="form__controll">
-                <span class="paragraph paragraph paragraph_small form__label form__label_required">Job title</span>
+                <span class="form__label form__label_required">Job title</span>
                 <input type="text" class="form__field">
             </label>
             <label class="form__controll">
-                <span class="paragraph paragraph paragraph_small form__label form__label_required">Business email</span>
+                <span class="form__label form__label_required">Business email</span>
                 <input type="email" class="form__field">
             </label>
             <label class="form__controll">
-                <span class="paragraph paragraph paragraph_small form__label form__label_required">Company name</span>
+                <span class="form__label form__label_required">Company name</span>
                 <input type="text" class="form__field">
             </label>
             <label class="form__controll">
-                <span class="paragraph paragraph paragraph_small form__label form__label_required">Company type</span>
+                <span class="form__label form__label_required">Company type</span>
                 <input type="text" class="form__field">
             </label>
             <label class="form__controll">
-                <span class="paragraph paragraph paragraph_small form__label form__label_required">Company size</span>
+                <span class="form__label form__label_required">Company size</span>
                 <input type="number" placeholder="Select a number" class="form__field">
             </label>
             <label class="form__controll">
-                <span class="paragraph paragraph paragraph_small form__label form__label_required">Country</span>
+                <span class="form__label form__label_required">Country</span>
                 <select class="form__field form-section__field">
                     <option value="bel" class="form__option">Belarus</option>
                     <option value="en" class="form__option">England</option>
@@ -375,24 +367,27 @@
                 </select>
             </label>
             <label class="form__controll">
-                <span class="paragraph paragraph paragraph_small form__label form__label_required">Tell us more:</span>
+                <span class="form__label form__label_required">Tell us more:</span>
                 <textarea class="form__field form__field_textarea" name="message" type="text" placeholder= "What can we achieve together through our partnership? Describe your vision and tell us more about your business case, and the objectives you want to achieve with us.">
                 </textarea>
             </label>
-            <label class="form__controll_flex">
-                    <input type="checkbox" class="form__checkbox">
-                    <span class="paragraph paragraph_small form__label form__label_required">I would like to obtain information about the Partner Program.</span>
-            </label>
-            <label class="form__controll_flex">
-                    <input type="checkbox" class="form__checkbox">
-                    <span class="paragraph paragraph_small form__label">I would like to receive occasional e-mails with commercial information (including product updates, offers and news)</span>
-            </label>
-            <p class="paragraph paragraph_form">The content of the form is used by Infermedica only to schedule a meeting or in the case of additional consent - which you can withdraw at any time - to send occasional e-mails with commercial information. You can find more information about the use of your data and your rights in the <a href="/privacy-policy" class="form__link">Privacy Policy</a></p>
+            <div>
+                <label class="form__controll_flex">
+                        <input type="checkbox" class="form__checkbox">
+                        <span class="paragraph paragraph_small form__label form__label_required">I would like to obtain information about the Partner Program.</span>
+                </label>
+                <label class="form__controll_flex">
+                        <input type="checkbox" class="form__checkbox">
+                        <span class="paragraph paragraph_small form__label">I would like to receive occasional e-mails with commercial information (including product updates, offers and news)</span>
+                </label>
+                <p class="paragraph paragraph_form">The content of the form is used by Infermedica only to schedule a meeting or in the case of additional consent - which you can withdraw at any time - to send occasional e-mails with commercial information. You can find more information about the use of your data and your rights in the <a href="/privacy-policy" class="form__link">Privacy Policy</a></p>
+            </div>
             <button type="submit" class="button button_primary">Let's connect</button>
         </form>
     </div>
     <footer class="footer">
         <div class="nav">
+            <!--need to know learn flex: 0 0 0; -->
             <div class="container footer__container">
                 <div class=" container__content">
                     <h3 class="subtitle subtitle_footer">Products</h3>
