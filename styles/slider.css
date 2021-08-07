@@ -41,3 +41,8 @@
 .slider__button_right {
     background-image: url("../assets/icons/arrow_right.svg");
 }
+.slider__button_disable {
+    cursor: default;
+    border-color: #e0e6ed;
+    background-image: url("../assets/icons/button_disable.svg");
+}
