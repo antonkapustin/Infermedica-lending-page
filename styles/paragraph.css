@@ -40,7 +40,6 @@
     font-size: 23px;
     line-height: 34.5px;
     width: 626px;
-    letter-spacing: 0;
     margin-bottom: 58px;
 }
 .paragraph_slider{
@@ -52,10 +51,11 @@
 .paragraph_small{
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0;
 }
 .paragraph_form{
     font-size: 14px;
-    letter-spacing: -0.075px;
+    /* letter-spacing: -0.075px; */
+    letter-spacing: 0;
     line-height: 21px;
-    margin-bottom: 55px;
 }
