@@ -7,4 +7,5 @@
     margin-right: 55px;
 }
 .container__content{
+    flex: 0 1 25%;
 }
