@@ -1,41 +1,12 @@
-    .feedback {}
-    
-    .slider{
-       margin-left: 54px;
+    .feedback {
+        padding-top: 97px;
     }
-    .slider__item{
-        display: flex;
-    }
-
-    .container__img {}
-
     .feedback__img{
         width: 128px;
         height: 128px;
         border-radius:50%;
     }
-
-    .container__content{}
-
-    .feedback__logo {}
-    
-    .paragraph_bottom_gap{
-        font-size: 28px;
-        margin-bottom: 75px;
-        
+    .feedback__logo {
+    margin-bottom: 20px;
     }
-    .slider__controlls{
-        display: flex;   
-        justify-content: center;
-        margin-top: 25px;
-    }
-
-    .slider__button{
-        height: 65px;
-        width: 65px;
-        border-radius: 50%;
-        margin-bottom: 130px;
-    }
-    
-    .slider__button_left, .slider__button_right {}
 

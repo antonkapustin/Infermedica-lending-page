@@ -1,0 +1,17 @@
+.certificate{
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+.certificate__icon{
+    width: 36px;
+    margin-right: 15px;
+}
+.certificate__text{
+    font-size: 12px;
+    letter-spacing: -0.15px;
+    line-height: 18px;
+    font-family: var(--main-font);
+    color: var(--color-gray);
+    margin-right: 21px;
+}

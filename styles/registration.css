@@ -1,34 +1,6 @@
 .registration {
     text-align: center;
-}
-
-.form{
-    margin-top: 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 450px;
-    margin: 35px auto;
-}
-
-.form__controll{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin-bottom: 30px;
-}
-
-.form__field{
-    width: 410px;
-    height: 50px;
-}
-
-.form__checkbox{}
-
-.form__option {}
-
-
-.form__link{
-    text-decoration: none;
-    color:var(--color-blue);
+    padding-top: 127px;
+    padding-bottom: 87px;
+    background-color: #f5f8fb;
 }
